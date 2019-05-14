@@ -176,12 +176,14 @@ h5{
 }
 .hover1 a.info:hover{
   box-shadow: 0 0 5px #fff;
+
 }
 .hover1:hover img{
   transform: scale(1.2);
 }
 .hover1:hover .overlay{
   opacity: 1;
+  cursor: pointer !important;
 }
 .hover1:hover h2, .hover1:hover a.info{
   opacity: 1;
@@ -354,7 +356,6 @@ h5{
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
 }
 
 .hover1 .overlay{
@@ -363,7 +364,9 @@ h5{
   position: absolute;
   overflow: hidden;
   top: 0;
+  bottom:0;
   left: 0;
+  right: 0;
   opacity: 0;
   background-color:  rbga (0,0,0,0.5);
   transition: all 0.4s cubic-bezier(0.88,-0.99,0,1.81);
@@ -373,7 +376,7 @@ h5{
   position: relative;
   transition: all 0.4s cubic-bezier(0.88,-0.99,0,1.81);
 }
-.hover1 h2{
+.hover1 h3{
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -405,7 +408,7 @@ h5{
 .hover1:hover .overlay{
   opacity: 1;
 }
-.hover1:hover h2, .hover1:hover a.info{
+.hover1:hover h3, .hover1:hover a.info{
   opacity: 1;
   transform: translateY(0);
 }

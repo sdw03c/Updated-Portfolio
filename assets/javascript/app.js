@@ -21,9 +21,9 @@ $(document).ready(function(){
         }
 
     var firstRow = $("#first-row-projects")
-    var firstProject = $("<th><img id = 'first-project' src=" + portfolioList.project[0] + " width='100%' ></th>")
-    var secondProject = $("<th><img id = 'second-project'src=" + portfolioList.project[1] + " width='100%' ></th>")
-    var thirdProject = $("<th><img id = 'third-project' src=" + portfolioList.project[2] + " width='100%' ></th>")
+    var firstProject = $("<th><span class = 'hover1'><img src=" + portfolioList.project[0] + " width='100%' ><span id = 'first-project' class='overlay'><h2>Click Image!</h2></span></span></th>")
+    var secondProject = $("<th><span class = 'hover1'><img src=" + portfolioList.project[1] + " width='100%' ><span id = 'second-project' class='overlay'><h2>Click Image!</h2></span></span></th>")
+    var thirdProject = $("<th><span class = 'hover1'><img src=" + portfolioList.project[2] + " width='100%' ><span id = 'third-project' class='overlay'><h2>Click Image!</h2></span></span></th>")
 
     firstRow.append(firstProject).append(secondProject).append(thirdProject)
     $("#first-project").on("click",function(){ window.open("https://github.com/clearplaid/Bucket-List-Buddies")})
@@ -42,9 +42,9 @@ $(document).ready(function(){
     $("#second-button").on("click",function(){ window.open("https://sdw03c.github.io/Train-Scheduler/")})
     $("#third-button").on("click",function(){ window.open("https://sdw03c.github.io/unit-4-game/")})
     var thirdRow = $("#third-row-projects")
-    var fourthProject = $("<th><img id = 'fourth-project' src=" + portfolioList.project[3] + " width='100%' ></th>")
-    var fifthProject = $("<th><img id = 'fifth-project' src=" + portfolioList.project[4] + " width='100%' ></th>")
-    var sixthProject = $("<th><img id = 'sixth-project' src=" + portfolioList.project[5] + " width='100%' ></th>")
+    var fourthProject = $("<th><span class = 'hover1'><img src=" + portfolioList.project[3] + " width='100%' ><span  id = 'fourth-project' class='overlay'><h2>Click Image!</h2></span></span></th>")
+    var fifthProject = $("<th><span class = 'hover1'><img  src=" + portfolioList.project[4] + " width='100%' ><span id = 'fifth-project' class='overlay'><h2>Click Image!</h2></span></span></th>")
+    var sixthProject = $("<th><span class = 'hover1'><img  src=" + portfolioList.project[5] + " width='100%' ><span id = 'sixth-project' class='overlay'><h2>Click Image!</h2></span></span></th>")
 
     thirdRow.append(fourthProject).append(fifthProject).append(sixthProject)
     $("#fourth-project").on("click",function(){ window.open("https://github.com/sdw03c/TriviaGame")})
