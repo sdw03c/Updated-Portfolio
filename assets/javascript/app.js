@@ -16,7 +16,7 @@ $(document).ready(function(){
     {
         project: ['assets/imgs/bucketList.PNG','assets/imgs/trainScheduler.PNG', 'assets/imgs/crystalGame.PNG','assets/imgs/triviaGame.PNG','assets/imgs/gifTastic.PNG', 'assets/imgs/psychicGame.PNG'], 
 
-        button: ["Bucket List","Train Scheduler", "Crystal Game","Trivia Game","Gif Project","Psychic Game"],
+        button: ["Bucket List","Train Scheduler", "Crystal Game","Trivia Game","Gif Project","LiriBot Project"],
 
         }
 
@@ -49,7 +49,7 @@ $(document).ready(function(){
     thirdRow.append(fourthProject).append(fifthProject).append(sixthProject)
     $("#fourth-project").on("click",function(){ window.open("https://github.com/sdw03c/TriviaGame")})
     $("#fifth-project").on("click",function(){ window.open("https://github.com/sdw03c/GifTastic")})
-    $("#sixth-project").on("click",function(){ window.open("https://github.com/sdw03c/Psychic-game")})
+    $("#sixth-project").on("click",function(){ window.open("https://github.com/sdw03c/LiriBot")})
 
     var fourthRow = $("#fourth-row-buttons")
     var fourthButton = $("<td><button  id = 'fourth-button'width='100%' class = 'btn btn-primary'   value=''>" + portfolioList.button[3] + "</button></td>")
@@ -60,7 +60,7 @@ $(document).ready(function(){
 
     $("#fourth-button").on("click",function(){ window.open("https://sdw03c.github.io/TriviaGame/")})
     $("#fifth-button").on("click",function(){ window.open("https://sdw03c.github.io/GifTastic/")})
-    $("#sixth-button").on("click",function(){ window.open("https://sdw03c.github.io/Psychic-game")})
+    $("#sixth-button").on("click",function(){ window.open("https://github.com/sdw03c/LiriBot")})
    
     $("#name").append("<h5>Sharon Wong</h5>")
     $("#email").append("<h5>Sharn.dwong@gmail.com</h5>")
